@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    background-color: #505050;
+}
+
+.my-place {
+   width: 150px;
+   height: 100px;
+}
+
+.profile {
+    height: 56px;
+    width: 56px;
+    border-radius: 28px;
+    margin-left: 8px;
+}
+
+.info {
+    color: #D4D4D2;
+    font-family: Helvetica;
+    text-align: center;
+    font-weight:500;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.linkedin {
+    height: 15px;
+    width: 15px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+#gameDiv {
+    width: 500px;
+    border: 3px solid red;
+    background-color: #ff6600;
+    border-top-right-radius: 16px;
+    border-end-start-radius: 16px;
+    border-end-end-radius: 16px;
+    text-align: center;
+    padding: 100px;
+    margin-top: 32px;
+}
+
+.gameText {
+    color: black;
+}
+
+button {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.choiceBtn {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+}
